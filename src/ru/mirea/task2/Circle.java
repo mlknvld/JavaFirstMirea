@@ -6,7 +6,6 @@ public class Circle
     private double r;
     public Circle()
     {}
-
     public Circle(double x, double y, double r)
     {
         this.x = x;

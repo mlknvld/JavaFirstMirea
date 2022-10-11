@@ -4,6 +4,7 @@ public class TestBall
 {
     public static void main(String[] args)
     {
+
         Scanner scan = new Scanner(System.in);
         System.out.println("введите начальную координату х:");
         Double x = scan.nextDouble();

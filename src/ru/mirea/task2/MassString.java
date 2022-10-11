@@ -3,8 +3,7 @@ import java.util.Scanner;
 public class MassString
 {
     public static void main(String[] args)
-    {
-        System.out.println("Введите количество элементов в массиве");
+    {   System.out.println("Введите количество элементов в массиве");
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         String[] mass = new String[n];

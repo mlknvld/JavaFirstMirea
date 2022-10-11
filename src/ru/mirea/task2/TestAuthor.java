@@ -4,6 +4,7 @@ public class TestAuthor
 {
     public static void main(String[] args)
     {
+
         Scanner scan = new Scanner(System.in);
         System.out.println("введите имя:");
         String name = scan.nextLine();

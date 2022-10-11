@@ -20,6 +20,7 @@ public class Shop
                 computers[i] = "";
             }
         }
+
     }
     public boolean  poisk(String name)
     {

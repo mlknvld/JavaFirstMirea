@@ -31,6 +31,7 @@ public class ComputerTest
         System.out.println("Введите название компьютера, который хотите найти");
         name = sc.next();
         boolean p = shop.poisk(name);
+
         if(p==true)
         { System.out.println("Компьютер найден");}
         else { System.out.println("Компьютер не найден");}

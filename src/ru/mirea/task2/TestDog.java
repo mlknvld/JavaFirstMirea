@@ -11,6 +11,7 @@ public class TestDog
     static Dog[] mass;
     public static void main(String[] args)
     {
+
         System.out.println("Введите количество собак");
         Scanner input = new Scanner(System.in);
         int count = input.nextInt();

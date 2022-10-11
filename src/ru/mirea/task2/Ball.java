@@ -7,7 +7,6 @@ public class Ball
     {this.x = x; this.y = y;}
     public Ball()
     {}
-
     public double getX()
     {return x;}
     public double getY()
