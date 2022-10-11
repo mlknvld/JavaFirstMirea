@@ -2,6 +2,7 @@ package ru.mirea.task2;
 import java.util.Objects;
 public class Shop
 {
+
     String[] computers;
     public Shop(int n)
     {

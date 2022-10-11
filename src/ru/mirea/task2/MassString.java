@@ -2,6 +2,7 @@ package ru.mirea.task2;
 import java.util.Scanner;
 public class MassString
 {
+
     public static void main(String[] args)
     {
         System.out.println("Введите количество элементов в массиве");

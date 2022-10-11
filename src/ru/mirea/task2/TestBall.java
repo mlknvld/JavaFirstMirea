@@ -17,5 +17,6 @@ public class TestBall
         Double dy = scan.nextDouble();
         ball.move(dx, dy);
         System.out.println(ball.toString());
+
     }
 }

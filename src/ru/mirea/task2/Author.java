@@ -21,6 +21,7 @@ public class Author
     {return gender;}
     public String toString()
     {
+
         if(gender=='ж')
         {return "женский";}
         if(gender=='м')
