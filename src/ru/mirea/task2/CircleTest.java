@@ -4,7 +4,6 @@ public class CircleTest
 {
     public static void main(String[] args)
     {
-
         Scanner sc = new Scanner(System.in);
         double x, y, r;
         System.out.println("Введите координату х центра первой окружности");

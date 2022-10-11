@@ -1,5 +1,4 @@
 package ru.mirea.task2;
-
 public class Circle
 {
     private double x;

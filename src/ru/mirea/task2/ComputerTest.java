@@ -6,7 +6,6 @@ public class ComputerTest
 {
     public static void main(String[] args)
     {
-
         System.out.println("Введите количество компьютеров");
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();

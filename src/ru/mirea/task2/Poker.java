@@ -28,7 +28,6 @@ public class Poker
             System.out.println("");
             for (int j = 0; j< 5; j++)
             {
-
                 do
                 {
                     rnd = new Random().nextInt(51);
