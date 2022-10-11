@@ -24,5 +24,6 @@ public class Shells
         System.out.println("Значение double "+ d);
         String d4 = Double.toString(d);
         System.out.println("преобразование литерала "+d4);
+
     }
 }

@@ -8,14 +8,15 @@ public class Report
     static public void generateReport(Employee[] e)
     {
         String str = "";
-        System.out.println();
+        str+=String.format("%15s%15s", "Name","Salary");
+        str+="\n";
         for(int i = 0; i < e.length; i++)
         {
-           str = String.format("%15s%15.2f", e[i].getSalary());
-           System.out.printf("%.2f", str);
+            str += String.format("%15s%15s.2f", e[i].getFullname(), e[i].getSalary());
+            str+="\n";
         }
+        System.out.print(str);
     }
-
         public static void main(String[] args)
         {
             System.out.println("Введите количество сотрудников");

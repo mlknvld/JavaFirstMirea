@@ -29,6 +29,7 @@ public class Mass4
         if(b==true)
         {System.out.println("Последовательность является строго возрастающей");}
         else {System.out.println("Последовательность не является строго возрастающей");}
+
     }
 
 }

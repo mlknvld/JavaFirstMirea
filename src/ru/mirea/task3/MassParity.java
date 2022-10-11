@@ -42,7 +42,6 @@ public class MassParity
             {
                 parity[j] = mass[i];
                 j++;
-
             }
         }
         System.out.println("массив четных чисел");

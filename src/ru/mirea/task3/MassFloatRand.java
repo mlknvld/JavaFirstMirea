@@ -33,6 +33,7 @@ public class MassFloatRand
         Arrays.sort(num);
         for(int i = 0; i< n; i++)
         {
+
             System.out.println(num[i]);
         }
     }
